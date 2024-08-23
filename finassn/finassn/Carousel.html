@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--<meta charset="UTF-8">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Carousel.css">
+        <script src="caro.js" defer></script>
+        <title>RM Component Library</title>
+    </head>
+    <div class= "container">
+        <div class= "top">
+            <h1>Carousel</h1>
+                <p><b>By: Rylei Mindrum | A02352206</b></p>
+                <p>Made for CS2410 Fall 2023</p>
+        </div> <!--top-->
+        <nav class="navbar">
+            <div class="title">CSS Component Libray</div>
+            <div class="links">
+              <a href="Loader.html" target="_self">Spinners</a>
+              <a href="Navdrawer.html" target="_self">Nav Drawer</a>
+              <a href="Button.html" target="_self">Buttons</a>
+              <a href="Carousel.html" target="_self">Carousels</a>
+            </div>
+          </nav>
+          <button class="btn">
+            <span class="material-icons"></span>
+            <a href="comp.html" target="_self">HOME</a>
+        </button>
+        <button onclick="toggleDrawer()">Open Nav Drawer</button>
+        <button class="fab">
+            <span class="material-icons">add</span>
+        </button>
+        <div id="navigationDrawer" class="nav-drawer">
+            <a href="#"><yourimagehere class="png"></yourimagehere.png> Link1</a>
+            <a href="#"><your_imagehere class="png"></your_imagehere.png> Link2</a>
+            <a href="#"><yourimage_here class="png"></yourimage_here.png> Link3</a>
+            <!-- Add more links as needed -->
+        </div>
+        <div class="Carousel-Spinners">
+            <div class="title"><h1>Fading Carousel</h1></div>
+            <div class="carousel">
+                <div class="carousel-slide" style="background-image: url('yourimagehere.png');"></div>
+                <div class="carousel-slide" style="background-image: url('your_imagehere.png');"></div>
+                <div class="carousel-slide" style="background-image: url('yourimage_here.png');"></div>
+                <!-- Add more slides as needed -->
+            </div>
+            <nav class="CarouselLabels">
+                <div class="links">
+                    <p><h3>HTML</h3></p>
+                    <p><pre id="carousel-html"></pre></p>
+                    <p><h3>CSS</h3></p>
+                    <p><pre id="carousel-css"></pre></p>
+                </div>
+            </nav>
+            <div class="title"><h1>Rotating Carousel</h1></div>
+            <div class="carousel-container2">
+                <div class="carousel2">
+                    <img src="yourimagehere.png" alt="the beach">
+                    <img src="your_imagehere.png" alt="a girl doing kayak">
+                    <img src="yourimage_here.png" alt="a small boat in the sea">
+                    <img src="yourimagehere.png" alt="a mountain">
+                    <img src="your_imagehere.png" alt="a forest">
+                </div>
+            </div>
+            <nav class="CarouselLabels2">
+                <div class="links">
+                    <p><h3>HTML</h3></p>
+                    <p><pre id="carousel2-html"></pre></p>
+                    <p><h3>CSS</h3></p>
+                    <p><pre id="carousel2-css"></pre></p>
+                </div>
+            </nav>
+        </div>
+    </div><!--Container div-->
+</html>

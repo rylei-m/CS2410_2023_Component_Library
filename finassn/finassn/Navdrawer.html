@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--<meta charset="UTF-8">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Navdrawer.css">
+        <script src="nav.js" defer></script>
+        <title>RM Component Library</title>
+    </head>
+    <body>    
+        <div class= "container">
+            <div class= "top">
+                <h1>Navagation Drawer</h1>
+                    <p><b>By: Rylei Mindrum | A02352206</b></p>
+                    <p>Made for CS2410 Fall 2023</p>
+            </div> <!--top-->
+            <nav class="navbar">
+                <div class="title">CSS Component Libray</div>
+                <div class="links">
+                    <a href="Loader.html" target="_self">Spinners</a>
+                    <a href="Navdrawer.html" target="_self">Nav Drawer</a>
+                    <a href="Button.html" target="_self">Buttons</a>
+                    <a href="Carousel.html" target="_self">Carousels</a>
+                </div>
+            </nav>
+            <button class="btn">
+                <span class="material-icons"></span>
+                <a href="comp.html" target="_self">HOME</a>
+            </button>
+            <p><h1>Navagation Drawer</h1></p>
+            <button onclick="toggleDrawer()">Open Nav Drawer</button>
+            <div id="navigationDrawer" class="nav-drawer">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <!-- Add more links as needed -->
+            </div>
+            <div class="NavDrawer-Color">
+                <button class="fab">
+                    <span class="material-icons">add</span>
+                </button>
+                <nav class="NavLabels">
+                    <div class="links">
+                        <p><h3>HTML</h3></p>
+                        <p><pre class="html" id="navdrawer-html"></pre></p>
+                        <p><h3>CSS</h3></p>
+                        <p><pre class="css" id="navdrawer-css"></pre></p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>

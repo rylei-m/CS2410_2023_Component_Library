@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open recipe1",
+            "file": "c:\\Users\\ryryp\\OneDrive\\Pictures\\Documents\\CS2410\\.vscode\\finassn\\comp.html"
+        }
+    ]
+}
